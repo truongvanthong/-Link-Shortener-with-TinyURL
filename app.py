@@ -16,7 +16,7 @@ st.title("Link Shortener with TinyURL")
 st.write("Nhập đường link mà bạn muốn rút gọn:")
 
 # Nhập URL từ người dùng
-long_url = st.text_input("Đường link dài", "")
+long_url = st.text_input("Link cần rút gọn:")
 
 # Khi nhấn nút, rút gọn link
 if st.button("Rút gọn link"):
